@@ -4,8 +4,16 @@ import { useState } from "react";
 const ContactSection = () => {
   const [submitted, setSubmitted] = useState(false);
 
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [project, setProject] = useState("");
+  const [message, setMessage] = useState("");
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    const text = `Hi, I'm interested in your properties.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Email:* ${email}%0A*Project:* ${project || "Not specified"}%0A*Message:* ${message || "N/A"}`;
+    window.open(`https://wa.me/919876543210?text=${text}`, "_blank");
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
   };
@@ -65,12 +73,16 @@ const ContactSection = () => {
                 type="text"
                 placeholder="Your Name"
                 required
+                value={name}
+                onChange={(e) => setName(e.target.value)}
                 className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
               />
               <input
                 type="tel"
                 placeholder="Phone Number"
                 required
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
                 className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
               />
             </div>
@@ -78,9 +90,13 @@ const ContactSection = () => {
               type="email"
               placeholder="Email Address"
               required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
             />
             <select
+              value={project}
+              onChange={(e) => setProject(e.target.value)}
               className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
             >
               <option value="">Interested Project</option>
@@ -91,6 +107,8 @@ const ContactSection = () => {
             <textarea
               placeholder="Your Message"
               rows={4}
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
               className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none"
             />
             <button
