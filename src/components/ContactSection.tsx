@@ -13,7 +13,7 @@ const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Hi, I'm interested in your properties.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Email:* ${email}%0A*Project:* ${project || "Not specified"}%0A*Message:* ${message || "N/A"}`;
-    window.open(`https://wa.me/919876543210?text=${text}`, "_blank");
+    window.open(`https://wa.me/918310588048?text=${text}`, "_blank");
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
   };
@@ -51,7 +51,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Phone</p>
-                  <p className="text-sm text-muted-foreground">+91 98765 43210</p>
+                  <p className="text-sm text-muted-foreground">+91 83105 88048</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
