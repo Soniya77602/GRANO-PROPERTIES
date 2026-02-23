@@ -1,0 +1,109 @@
+import { MapPin, Phone, Mail } from "lucide-react";
+import { useState } from "react";
+
+const ContactSection = () => {
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitted(true);
+    setTimeout(() => setSubmitted(false), 3000);
+  };
+
+  return (
+    <section id="contact" className="py-20 lg:py-28 section-fade">
+      <div className="container mx-auto px-4 lg:px-8">
+        <div className="text-center mb-14">
+          <p className="text-sm tracking-[0.3em] uppercase text-primary mb-3 font-medium">Get In Touch</p>
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground">
+            Contact <span className="text-gold-gradient">Us</span>
+          </h2>
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+          {/* Info */}
+          <div className="space-y-8">
+            <p className="text-muted-foreground leading-relaxed">
+              Ready to find your dream home? Get in touch with us and our team will help you
+              explore the perfect living space for you and your family.
+            </p>
+            <div className="space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="gold-gradient p-3 rounded-lg">
+                  <MapPin className="w-5 h-5 text-primary-foreground" />
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Our Office</p>
+                  <p className="text-sm text-muted-foreground">123 Builder Lane, Whitefield,<br />Bangalore - 560066</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="gold-gradient p-3 rounded-lg">
+                  <Phone className="w-5 h-5 text-primary-foreground" />
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Phone</p>
+                  <p className="text-sm text-muted-foreground">+91 98765 43210</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="gold-gradient p-3 rounded-lg">
+                  <Mail className="w-5 h-5 text-primary-foreground" />
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Email</p>
+                  <p className="text-sm text-muted-foreground">info@dreamhomes.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Form */}
+          <form onSubmit={handleSubmit} className="bg-card border border-border rounded-lg p-8 space-y-5">
+            <div className="grid sm:grid-cols-2 gap-5">
+              <input
+                type="text"
+                placeholder="Your Name"
+                required
+                className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
+              />
+              <input
+                type="tel"
+                placeholder="Phone Number"
+                required
+                className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
+              />
+            </div>
+            <input
+              type="email"
+              placeholder="Email Address"
+              required
+              className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
+            />
+            <select
+              className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
+            >
+              <option value="">Interested Project</option>
+              <option>Royal Villas</option>
+              <option>Skyline Residences</option>
+              <option>Green Meadows</option>
+            </select>
+            <textarea
+              placeholder="Your Message"
+              rows={4}
+              className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 resize-none"
+            />
+            <button
+              type="submit"
+              className="w-full gold-gradient text-primary-foreground py-3 rounded-md font-semibold text-sm tracking-wide uppercase hover:opacity-90 transition-opacity"
+            >
+              {submitted ? "Message Sent ✓" : "Send Message"}
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ContactSection;
