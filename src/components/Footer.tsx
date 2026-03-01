@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-10 pt-6 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Grano Construction. All rights reserved.
+          © {new Date().getFullYear()} Grano Properties. All rights reserved.
         </div>
       </div>
     </footer>
