@@ -33,11 +33,11 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="tel:+919876543210"
+          href="tel:+918310588048"
           className="hidden md:flex items-center gap-2 text-sm font-medium text-primary"
         >
           <Phone className="w-4 h-4" />
-          +91 98765 43210
+          +91 83105 88048
         </a>
 
         {/* Mobile toggle */}
