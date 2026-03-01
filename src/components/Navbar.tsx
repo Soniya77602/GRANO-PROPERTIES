@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
         <a href="#home" className="text-2xl font-heading font-bold text-gold-gradient tracking-wide">
-          DREAM<span className="text-foreground">HOMES</span>
+          GRANO<span className="text-foreground"> CONSTRUCTION</span>
         </a>
 
         {/* Desktop */}
@@ -33,11 +33,11 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="tel:+919876543210"
+          href="tel:+918310588048"
           className="hidden md:flex items-center gap-2 text-sm font-medium text-primary"
         >
           <Phone className="w-4 h-4" />
-          +91 98765 43210
+          +91 83105 88048
         </a>
 
         {/* Mobile toggle */}
@@ -66,9 +66,9 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              <a href="tel:+919876543210" className="text-sm font-medium text-primary flex items-center gap-2">
+              <a href="tel:+918310588048" className="text-sm font-medium text-primary flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                +91 98765 43210
+                +91 83105 88048
               </a>
             </li>
           </ul>

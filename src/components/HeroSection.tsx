@@ -11,13 +11,13 @@ const HeroSection = () => {
       <div className="absolute inset-0 hero-overlay" />
       <div className="relative z-10 text-center px-4 max-w-3xl animate-fade-in-up">
         <p className="text-sm tracking-[0.3em] uppercase text-primary mb-4 font-medium">
-          Premium Real Estate
+          Grano Construction
         </p>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight mb-6 text-foreground">
-          Creating Happier <span className="text-gold-gradient">Living</span>
+          Building Your <span className="text-gold-gradient">Vision</span>
         </h1>
         <p className="text-muted-foreground text-lg md:text-xl max-w-xl mx-auto mb-8 font-light leading-relaxed">
-          Step into paradise. We craft dream homes that complement your way of life with meticulous design and timeless elegance.
+          Premium apartments crafted with quality, trust, and modern design. Your dream home awaits.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a

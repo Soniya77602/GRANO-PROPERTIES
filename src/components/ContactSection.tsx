@@ -42,7 +42,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Our Office</p>
-                  <p className="text-sm text-muted-foreground">123 Builder Lane, Whitefield,<br />Bangalore - 560066</p>
+                  <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -60,7 +60,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Email</p>
-                  <p className="text-sm text-muted-foreground">info@dreamhomes.com</p>
+                  <p className="text-sm text-muted-foreground">info@granoconstruction.com</p>
                 </div>
               </div>
             </div>
@@ -100,9 +100,8 @@ const ContactSection = () => {
               className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
             >
               <option value="">Interested Project</option>
-              <option>Royal Villas</option>
-              <option>Skyline Residences</option>
-              <option>Green Meadows</option>
+              <option>Prime Vision</option>
+              <option>Vision Builder Sathnur</option>
             </select>
             <textarea
               placeholder="Your Message"

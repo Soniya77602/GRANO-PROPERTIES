@@ -28,15 +28,14 @@ const AboutSection = () => {
           <div>
             <p className="text-sm tracking-[0.3em] uppercase text-primary mb-3 font-medium">About Us</p>
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6 text-foreground">
-              Building Dreams, <br />Delivering <span className="text-gold-gradient">Happiness</span>
+              Building With <br />Trust & <span className="text-gold-gradient">Quality</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              With over 15 years of experience in real estate development, we have been dedicated to creating
-              living spaces that go beyond just structures. Every project reflects our commitment to quality,
-              innovation, and customer satisfaction.
+              At Grano Construction, we are dedicated to creating premium living spaces that go beyond 
+              just structures. Every project reflects our commitment to quality, innovation, and customer satisfaction.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Our team of architects, engineers, and designers work together to deliver homes that are
+              Our team of architects, engineers, and designers work together to deliver apartments that are
               aesthetically pleasing, structurally sound, and designed for modern living.
             </p>
 
