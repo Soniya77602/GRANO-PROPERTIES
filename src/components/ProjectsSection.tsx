@@ -1,32 +1,23 @@
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
+import primeVision from "@/assets/prime-vision.jpg";
+import visionSathnur from "@/assets/vision-sathnur.jpg";
 import { ArrowRight } from "lucide-react";
 
 const projects = [
   {
-    image: project1,
-    title: "Royal Villas",
-    location: "Whitefield, Bangalore",
-    type: "Luxury Villas",
-    config: "3/4/5 BHK Villas",
-    area: "3500 - 4800 sq.ft",
-  },
-  {
-    image: project2,
-    title: "Skyline Residences",
-    location: "Sarjapur Road, Bangalore",
+    image: primeVision,
+    title: "Prime Vision",
+    location: "Bangalore",
     type: "Premium Apartments",
-    config: "2/3 BHK Apartments",
-    area: "1200 - 2400 sq.ft",
+    config: "3 BHK Apartments",
+    area: "Ongoing Project",
   },
   {
-    image: project3,
-    title: "Green Meadows",
-    location: "Mysore Ring Road",
-    type: "Villa Plots",
-    config: "30x40 | 30x50 | 40x60 Plots",
-    area: "1200 - 2400 sq.ft",
+    image: visionSathnur,
+    title: "Vision Builder Sathnur",
+    location: "Sathnur, Bangalore",
+    type: "Residential Apartments",
+    config: "2/3 BHK Apartments",
+    area: "Ongoing Project",
   },
 ];
 
@@ -37,11 +28,11 @@ const ProjectsSection = () => {
         <div className="text-center mb-14">
           <p className="text-sm tracking-[0.3em] uppercase text-primary mb-3 font-medium">Our Projects</p>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground">
-            Discover Your <span className="text-gold-gradient">Dream Home</span>
+            Ongoing <span className="text-gold-gradient">Projects</span>
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {projects.map((project) => (
             <div
               key={project.title}
