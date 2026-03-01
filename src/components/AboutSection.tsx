@@ -31,7 +31,7 @@ const AboutSection = () => {
               Building With <br />Trust & <span className="text-gold-gradient">Quality</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              At Grano Construction, we are dedicated to creating premium living spaces that go beyond 
+              At Grano Properties, we are dedicated to creating premium living spaces that go beyond 
               just structures. Every project reflects our commitment to quality, innovation, and customer satisfaction.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
