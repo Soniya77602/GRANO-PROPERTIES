@@ -16,8 +16,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
         <a href="#home" className="flex items-center gap-3">
-          <img src={logo} alt="Grano Properties" className="w-10 h-10 rounded-full object-cover" />
-          <span className="text-xl font-heading font-bold text-gold-gradient tracking-wide">
+          <img src={logo} alt="Grano Properties" className="w-12 h-12 object-contain" />
+          <span className="text-xl font-heading font-bold text-gold-gradient tracking-wide hidden sm:inline">
             GRANO<span className="text-foreground"> PROPERTIES</span>
           </span>
         </a>
