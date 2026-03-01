@@ -7,10 +7,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-10">
           <div>
             <a href="#home" className="text-2xl font-heading font-bold text-gold-gradient tracking-wide">
-              DREAM<span className="text-foreground">HOMES</span>
+              GRANO<span className="text-foreground"> CONSTRUCTION</span>
             </a>
             <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
-              Building dream homes with quality, trust, and innovation for over 15 years.
+              Building premium apartments with quality, trust, and innovation.
             </p>
           </div>
 
