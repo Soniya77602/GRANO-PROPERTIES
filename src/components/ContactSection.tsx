@@ -42,7 +42,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Our Office</p>
-                  <p className="text-sm text-muted-foreground">123 Builder Lane, Whitefield,<br />Bangalore - 560066</p>
+                  <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
