@@ -14,7 +14,7 @@ const HeroSection = () => {
           Grano Properties
         </p>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight mb-6 text-foreground">
-          Building Your <span className="text-gold-gradient">Vision</span>
+          Building Your <span className="text-gold-gradient">Legacy</span>
         </h1>
         <p className="text-muted-foreground text-lg md:text-xl max-w-xl mx-auto mb-8 font-light leading-relaxed">
           Premium apartments crafted with quality, trust, and modern design. Your dream home awaits.
