@@ -27,9 +27,9 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-foreground mb-4">Contact</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-primary" /> Whitefield, Bangalore</li>
-              <li className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary" /> +91 98765 43210</li>
-              <li className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary" /> info@dreamhomes.com</li>
+              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-primary" /> Bangalore, Karnataka</li>
+              <li className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary" /> +91 83105 88048</li>
+              <li className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary" /> info@granoconstruction.com</li>
             </ul>
           </div>
         </div>
