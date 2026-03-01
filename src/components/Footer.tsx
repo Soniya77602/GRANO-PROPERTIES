@@ -7,11 +7,14 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid md:grid-cols-3 gap-10">
           <div>
-            <a href="#home" className="text-2xl font-heading font-bold text-gold-gradient tracking-wide">
-              GRANO<span className="text-foreground"> CONSTRUCTION</span>
+            <a href="#home" className="flex items-center gap-3">
+              <img src={logo} alt="Grano Properties" className="w-10 h-10 rounded-full object-cover" />
+              <span className="text-xl font-heading font-bold text-gold-gradient tracking-wide">
+                GRANO<span className="text-foreground"> PROPERTIES</span>
+              </span>
             </a>
             <p className="text-sm text-muted-foreground mt-3 leading-relaxed">
-              Building premium apartments with quality, trust, and innovation.
+              Building your legacy — premium apartments with quality, trust, and innovation.
             </p>
           </div>
 
