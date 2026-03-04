@@ -1,7 +1,7 @@
 import primeVision from "@/assets/prime-vision.jpg";
 import visionSathnur from "@/assets/vision-sathnur.jpg";
 import projectSathanur from "@/assets/project-sathanur.png";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download, FileText } from "lucide-react";
 
 const projects = [
   {
@@ -11,6 +11,8 @@ const projects = [
     type: "Premium Apartments",
     config: "3 BHK Apartments",
     area: "Ongoing Project",
+    brochure: "/brochures/prime-vision-brochure.pdf",
+    floorPlan: "/brochures/prime-vision-floor-plan.pdf",
   },
   {
     image: visionSathnur,
@@ -19,6 +21,8 @@ const projects = [
     type: "Residential Apartments",
     config: "2/3 BHK Apartments",
     area: "Ongoing Project",
+    brochure: "/brochures/vision-sathnur-brochure.pdf",
+    floorPlan: "/brochures/vision-sathnur-floor-plan.pdf",
   },
   {
     image: projectSathanur,
@@ -27,6 +31,8 @@ const projects = [
     type: "Luxury Apartments",
     config: "2/3 BHK Apartments",
     area: "Ongoing Project",
+    brochure: "/brochures/luxury-sathanur-brochure.pdf",
+    floorPlan: null,
   },
 ];
 
@@ -66,6 +72,31 @@ const ProjectsSection = () => {
                   <span>{project.config}</span>
                   <span>{project.area}</span>
                 </div>
+
+                {/* Brochure & Floor Plan Downloads */}
+                <div className="flex flex-wrap gap-2 mt-4">
+                  {project.brochure && (
+                    <a
+                      href={project.brochure}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md bg-secondary text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                    >
+                      <FileText className="w-3.5 h-3.5" /> Brochure
+                    </a>
+                  )}
+                  {project.floorPlan && (
+                    <a
+                      href={project.floorPlan}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md bg-secondary text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                    >
+                      <Download className="w-3.5 h-3.5" /> Floor Plan
+                    </a>
+                  )}
+                </div>
+
                 <a
                   href="#contact"
                   className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-gold-light transition-colors"
