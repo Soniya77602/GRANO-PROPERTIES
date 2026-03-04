@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -37,11 +37,11 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="tel:+918310588048"
+          href="tel:+919844469077"
           className="hidden md:flex items-center gap-2 text-sm font-medium text-primary"
         >
           <Phone className="w-4 h-4" />
-          +91 83105 88048
+          +91 98444 69077
         </a>
 
         {/* Mobile toggle */}
@@ -70,9 +70,9 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              <a href="tel:+918310588048" className="text-sm font-medium text-primary flex items-center gap-2">
+              <a href="tel:+919844469077" className="text-sm font-medium text-primary flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                +91 83105 88048
+                +91 98444 69077
               </a>
             </li>
           </ul>

@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail } from "lucide-react";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-10">
           <div>
             <a href="#home" className="flex items-center gap-3">
-              <img src={logo} alt="Grano Properties" className="w-10 h-10 rounded-full object-cover" />
+              <img src={logo} alt="Grano Properties" className="w-10 h-10 object-contain" />
               <span className="text-xl font-heading font-bold text-gold-gradient tracking-wide">
                 GRANO<span className="text-foreground"> PROPERTIES</span>
               </span>
@@ -31,15 +31,15 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-foreground mb-4">Contact</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li className="flex items-center gap-2"><MapPin className="w-4 h-4 text-primary" /> Bangalore, Karnataka</li>
-              <li className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary" /> +91 83105 88048</li>
-              <li className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary" /> info@granoconstruction.com</li>
+              <li className="flex items-start gap-2"><MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" /> Hus No:24, Shanthi Nivas, DPS School Opposite Road, Country Club, Baglur Main Road, Yelahanka, Bangalore - 562149</li>
+              <li className="flex items-center gap-2"><Phone className="w-4 h-4 text-primary" /> +91 98444 69077</li>
+              <li className="flex items-center gap-2"><Mail className="w-4 h-4 text-primary" /> chiruvijay777@gmail.com</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border mt-10 pt-6 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Grano Properties. All rights reserved.
+          © {new Date().getFullYear()} Grano Properties Pvt. Ltd. All rights reserved.
         </div>
       </div>
     </footer>

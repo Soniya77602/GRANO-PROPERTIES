@@ -13,7 +13,7 @@ const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Hi, I'm interested in your properties.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Email:* ${email}%0A*Project:* ${project || "Not specified"}%0A*Message:* ${message || "N/A"}`;
-    window.open(`https://wa.me/918310588048?text=${text}`, "_blank");
+    window.open(`https://wa.me/919844469077?text=${text}`, "_blank");
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
   };
@@ -37,30 +37,30 @@ const ContactSection = () => {
             </p>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="gold-gradient p-3 rounded-lg">
+                <div className="gold-gradient p-3 rounded-lg shrink-0">
                   <MapPin className="w-5 h-5 text-primary-foreground" />
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Our Office</p>
-                  <p className="text-sm text-muted-foreground">Bangalore, Karnataka</p>
+                  <p className="text-sm text-muted-foreground">Hus No:24, Shanthi Nivas, DPS School Opposite Road, Country Club, Baglur Main Road, Yelahanka, Bangalore - 562149</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="gold-gradient p-3 rounded-lg">
+                <div className="gold-gradient p-3 rounded-lg shrink-0">
                   <Phone className="w-5 h-5 text-primary-foreground" />
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Phone</p>
-                  <p className="text-sm text-muted-foreground">+91 83105 88048</p>
+                  <p className="text-sm text-muted-foreground">+91 98444 69077</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="gold-gradient p-3 rounded-lg">
+                <div className="gold-gradient p-3 rounded-lg shrink-0">
                   <Mail className="w-5 h-5 text-primary-foreground" />
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Email</p>
-                  <p className="text-sm text-muted-foreground">info@granoconstruction.com</p>
+                  <p className="text-sm text-muted-foreground">chiruvijay777@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -102,6 +102,7 @@ const ContactSection = () => {
               <option value="">Interested Project</option>
               <option>Prime Vision</option>
               <option>Vision Builder Sathnur</option>
+              <option>Luxury Apartments Sathanur</option>
             </select>
             <textarea
               placeholder="Your Message"
