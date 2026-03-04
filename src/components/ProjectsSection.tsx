@@ -1,5 +1,6 @@
 import primeVision from "@/assets/prime-vision.jpg";
 import visionSathnur from "@/assets/vision-sathnur.jpg";
+import projectSathanur from "@/assets/project-sathanur.png";
 import { ArrowRight } from "lucide-react";
 
 const projects = [
@@ -16,6 +17,14 @@ const projects = [
     title: "Vision Builder Sathnur",
     location: "Sathnur, Bangalore",
     type: "Residential Apartments",
+    config: "2/3 BHK Apartments",
+    area: "Ongoing Project",
+  },
+  {
+    image: projectSathanur,
+    title: "Luxury Apartments Sathanur",
+    location: "Sathanur, Bangalore",
+    type: "Luxury Apartments",
     config: "2/3 BHK Apartments",
     area: "Ongoing Project",
   },
