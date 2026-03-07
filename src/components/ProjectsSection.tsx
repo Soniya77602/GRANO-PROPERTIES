@@ -12,7 +12,7 @@ const projects = [
     config: "3 BHK Apartments",
     area: "Ongoing Project",
     brochure: "/brochures/prime-vision-brochure.pdf",
-    floorPlan: "/brochures/prime-vision-floor-plan.pdf",
+    floorPlan: "/brochures/vision-sathnur-floor-plan.pdf",
   },
   {
     image: visionSathnur,
@@ -22,7 +22,7 @@ const projects = [
     config: "2/3 BHK Apartments",
     area: "Ongoing Project",
     brochure: "/brochures/vision-sathnur-brochure.pdf",
-    floorPlan: "/brochures/vision-sathnur-floor-plan.pdf",
+    floorPlan: "/brochures/prime-vision-floor-plan.pdf",
   },
   {
     image: projectSathanur,
