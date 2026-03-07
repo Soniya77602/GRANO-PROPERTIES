@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-4 max-w-3xl animate-fade-in-up">
         <img src={logo} alt="Grano Properties Logo" className="w-24 h-24 mx-auto mb-6 object-contain" />
         <p className="text-sm tracking-[0.3em] uppercase text-primary mb-4 font-medium">
-          Building Your Legacy
+          GRANO PROPERTIES
         </p>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight mb-6 text-foreground">
           Building Your <span className="text-gold-gradient">Legacy</span>
