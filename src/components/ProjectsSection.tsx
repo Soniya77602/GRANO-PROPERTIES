@@ -1,6 +1,7 @@
 import primeVision from "@/assets/prime-vision.jpg";
 import visionSathnur from "@/assets/vision-sathnur.jpg";
-import projectSathanur from "@/assets/project-sathanur.png";
+import pvrBuilding from "@/assets/pvr-building.jpg";
+import comingSoon from "@/assets/coming-soon.jpg";
 import { ArrowRight, Download, FileText } from "lucide-react";
 
 const projects = [
@@ -12,7 +13,7 @@ const projects = [
     config: "3 BHK Apartments",
     area: "Ongoing Project",
     brochure: "/brochures/prime-vision-brochure.pdf",
-    floorPlan: "/brochures/prime-vision-floor-plan.pdf",
+    floorPlan: "/brochures/vision-sathnur-floor-plan.pdf",
   },
   {
     image: visionSathnur,
@@ -22,10 +23,10 @@ const projects = [
     config: "2/3 BHK Apartments",
     area: "Ongoing Project",
     brochure: "/brochures/vision-sathnur-brochure.pdf",
-    floorPlan: "/brochures/vision-sathnur-floor-plan.pdf",
+    floorPlan: "/brochures/prime-vision-floor-plan.pdf",
   },
   {
-    image: projectSathanur,
+    image: pvrBuilding,
     title: "Prime Vision Residency",
     location: "Sathnur Village, Srinivaspura",
     type: "Luxury Apartments",
@@ -35,7 +36,7 @@ const projects = [
     floorPlan: null,
   },
   {
-    image: projectSathanur,
+    image: comingSoon,
     title: "Grano Paradise",
     location: "Near Bagalur",
     type: "Residential Apartments",
