@@ -34,6 +34,16 @@ const projects = [
     brochure: "/brochures/pvr-brochure.pdf",
     floorPlan: null,
   },
+  {
+    image: projectSathanur,
+    title: "Grano Paradise",
+    location: "Near Bagalur",
+    type: "Residential Apartments",
+    config: "2/3 BHK Apartments",
+    area: "Ongoing Project",
+    brochure: null,
+    floorPlan: "/brochures/grano-paradise-floor-plan.pdf",
+  },
 ];
 
 const ProjectsSection = () => {
