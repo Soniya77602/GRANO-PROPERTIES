@@ -34,6 +34,16 @@ const projects = [
     brochure: "/brochures/pvr-brochure.pdf",
     floorPlan: null,
   },
+  {
+    image: projectSathanur,
+    title: "Grano Paradise",
+    location: "Near Bagalur",
+    type: "Residential Apartments",
+    config: "2/3 BHK Apartments",
+    area: "Ongoing Project",
+    brochure: null,
+    floorPlan: "/brochures/grano-paradise-floor-plan.pdf",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -47,7 +57,7 @@ const ProjectsSection = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {projects.map((project) => (
             <div
               key={project.title}
