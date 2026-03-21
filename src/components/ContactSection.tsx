@@ -100,9 +100,10 @@ const ContactSection = () => {
               className="w-full bg-secondary border border-border rounded-md px-4 py-3 text-sm text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50"
             >
               <option value="">Interested Project</option>
-              <option>Prime Vision</option>
-              <option>Vision Builder Sathnur</option>
-              <option>Luxury Apartments Sathanur</option>
+              <option>Shanthi Nivas</option>
+              <option>Grano Nivas</option>
+              <option>Prime Vision Residency</option>
+              <option>Grano Paradise</option>
             </select>
             <textarea
               placeholder="Your Message"
