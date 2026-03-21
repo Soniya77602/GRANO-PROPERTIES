@@ -22,7 +22,7 @@ const projects = [
     type: "Residential Apartments",
     config: "2/3 BHK Apartments",
     area: "Ongoing Project",
-    brochure: "/brochures/vision-sathnur-brochure.pdf",
+    brochure: "/brochures/grano-nivas-brochure.pdf",
     floorPlan: "/brochures/prime-vision-floor-plan.pdf",
   },
   {
