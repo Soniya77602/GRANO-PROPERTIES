@@ -3,7 +3,7 @@ import whatsappIcon from "@/assets/whatsapp-icon.png";
 const WhatsAppButton = () => {
   return (
     <a
-      href="https://wa.me/918310588048"
+      href="https://wa.me/919844465483"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
