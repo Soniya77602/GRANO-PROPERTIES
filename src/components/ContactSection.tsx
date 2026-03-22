@@ -13,7 +13,7 @@ const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const text = `Hi, I'm interested in your properties.%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Email:* ${email}%0A*Project:* ${project || "Not specified"}%0A*Message:* ${message || "N/A"}`;
-    window.open(`https://wa.me/919844469077?text=${text}`, "_blank");
+    window.open(`https://wa.me/919844465483?text=${text}`, "_blank");
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
   };
