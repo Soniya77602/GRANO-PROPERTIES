@@ -8,6 +8,7 @@ import shanthiNivas6 from "@/assets/shanthi-nivas-6.jpg";
 import shanthiNivas7 from "@/assets/shanthi-nivas-7.jpg";
 import shanthiNivas8 from "@/assets/shanthi-nivas-8.jpg";
 import shanthiNivas9 from "@/assets/shanthi-nivas-9.jpg";
+import granoNivasNew1 from "@/assets/grano-nivas-new-1.jpg";
 import granoNivas1 from "@/assets/grano-nivas-1.jpg";
 import granoNivas2 from "@/assets/grano-nivas-2.jpg";
 import granoNivas3 from "@/assets/grano-nivas-3.jpg";
@@ -33,7 +34,7 @@ const projects = [
     floorPlan: "/brochures/vision-sathnur-floor-plan.pdf",
   },
   {
-    images: [granoNivas1, granoNivas2, granoNivas3, granoNivas4, granoNivas5, granoNivas6, granoNivas7, granoNivas8, granoNivas9],
+    images: [granoNivasNew1, granoNivas1, granoNivas2, granoNivas3, granoNivas4, granoNivas5, granoNivas6, granoNivas7, granoNivas8, granoNivas9],
     title: "Grano Nivas",
     location: "Baba Nagar, 2nd Cross",
     type: "Residential Apartments",
@@ -172,21 +173,17 @@ const ImageModal = ({ images, title, startIndex, onClose }: { images: string[]; 
         <button onClick={onClose} className="absolute top-4 right-4 z-50 bg-white/10 backdrop-blur-sm rounded-full p-2 hover:bg-white/20 transition-colors">
           <X className="w-6 h-6 text-white" />
         </button>
-
         <button onClick={prev} className="absolute left-4 top-1/2 -translate-y-1/2 z-50 bg-white/10 backdrop-blur-sm rounded-full p-3 hover:bg-white/20 transition-colors">
           <ChevronLeft className="w-6 h-6 text-white" />
         </button>
-
         <img
           src={images[current]}
           alt={`${title} - Photo ${current + 1}`}
           className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
         />
-
         <button onClick={next} className="absolute right-4 top-1/2 -translate-y-1/2 z-50 bg-white/10 backdrop-blur-sm rounded-full p-3 hover:bg-white/20 transition-colors">
           <ChevronRight className="w-6 h-6 text-white" />
         </button>
-
         <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-3">
           <span className="text-white/80 text-sm font-medium">{current + 1} / {images.length}</span>
           <div className="flex gap-1.5">
@@ -199,7 +196,6 @@ const ImageModal = ({ images, title, startIndex, onClose }: { images: string[]; 
             ))}
           </div>
         </div>
-
         <p className="absolute top-4 left-4 text-white/80 text-lg font-heading font-semibold">{title}</p>
       </div>
     </div>
@@ -240,21 +236,19 @@ const ProjectsSection = () => {
                   <h3 className="text-xl font-heading font-bold text-foreground mt-2 mb-1">
                     {project.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground mb-3">{project.location}</p>
-                  <div className="flex justify-between text-sm text-muted-foreground border-t border-border pt-3">
-                    <span>{project.config}</span>
-                    <span>{project.area}</span>
-                  </div>
+                  <p className="text-sm text-muted-foreground mb-1">{project.location}</p>
+                  <p className="text-sm text-muted-foreground mb-1">{project.config}</p>
+                  <p className="text-xs text-primary font-medium mb-4">{project.area}</p>
 
-                  <div className="flex flex-wrap gap-2 mt-4">
+                  <div className="flex flex-wrap gap-2">
                     {project.brochure && (
                       <a
                         href={project.brochure}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md bg-secondary text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                        className="flex items-center gap-1.5 text-xs font-medium text-primary hover:underline"
                       >
-                        <FileText className="w-3.5 h-3.5" /> Brochure
+                        <Download className="w-3.5 h-3.5" /> Brochure
                       </a>
                     )}
                     {project.floorPlan && (
@@ -262,19 +256,12 @@ const ProjectsSection = () => {
                         href={project.floorPlan}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-md bg-secondary text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+                        className="flex items-center gap-1.5 text-xs font-medium text-primary hover:underline"
                       >
-                        <Download className="w-3.5 h-3.5" /> Floor Plan
+                        <FileText className="w-3.5 h-3.5" /> Floor Plan
                       </a>
                     )}
                   </div>
-
-                  <a
-                    href="#contact"
-                    className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-gold-light transition-colors"
-                  >
-                    Enquire Now <ArrowRight className="w-4 h-4" />
-                  </a>
                 </div>
               </div>
             ))}
