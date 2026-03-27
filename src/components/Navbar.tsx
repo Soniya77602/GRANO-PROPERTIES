@@ -17,12 +17,11 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between h-16 px-4 lg:px-8">
         <a href="#home" className="flex items-center gap-3">
           <img src={logo} alt="Grano Properties" className="w-12 h-12 object-contain" />
-          <span className="text-xl font-heading font-bold text-gold-gradient tracking-wide hidden sm:inline">
+          <span className="text-lg sm:text-xl font-heading font-bold text-gold-gradient tracking-wide">
             GRANO<span className="text-foreground"> PROPERTIES</span>
           </span>
         </a>
 
-        {/* Desktop */}
         <ul className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
             <li key={item.href}>
@@ -44,7 +43,6 @@ const Navbar = () => {
           +91 98444 69077
         </a>
 
-        {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-foreground"
@@ -54,7 +52,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {open && (
         <div className="md:hidden bg-background border-t border-border">
           <ul className="flex flex-col items-center gap-4 py-6">
