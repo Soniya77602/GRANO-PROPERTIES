@@ -19,7 +19,8 @@ import granoNivas7 from "@/assets/grano-nivas-7.jpg";
 import granoNivas8 from "@/assets/grano-nivas-8.jpg";
 import granoNivas9 from "@/assets/grano-nivas-9.jpg";
 import pvrBuilding from "@/assets/pvr-building.jpg";
-import comingSoon from "@/assets/coming-soon.jpg";
+import granoParadise1 from "@/assets/grano-paradise-1.jpg";
+import granoParadise2 from "@/assets/grano-paradise-2.jpg";
 import { ArrowRight, Download, FileText, ChevronLeft, ChevronRight, X } from "lucide-react";
 
 const projects = [
@@ -54,7 +55,7 @@ const projects = [
     floorPlan: null,
   },
   {
-    images: [comingSoon],
+    images: [granoParadise1, granoParadise2],
     title: "Grano Paradise",
     location: "Near Bagalur",
     type: "Residential Apartments",
