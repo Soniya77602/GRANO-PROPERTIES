@@ -56,7 +56,7 @@ const projects = [
   },
   {
     images: [granoParadise1, granoParadise2],
-    title: "Grano Paradise",
+    title: "Galaxy View",
     location: "Near Bagalur",
     type: "Residential Apartments",
     config: "2/3 BHK Apartments",
