@@ -33,6 +33,9 @@ import pvrBuilding11 from "@/assets/pvr-building-11.jpg";
 import pvrBuilding12 from "@/assets/pvr-building-12.jpg";
 import granoParadise1 from "@/assets/grano-paradise-1.jpg";
 import granoParadise2 from "@/assets/grano-paradise-2.jpg";
+import granoParadise3 from "@/assets/grano-paradise-3.jpg";
+import granoParadise4 from "@/assets/grano-paradise-4.jpg";
+import granoParadise5 from "@/assets/grano-paradise-5.jpg";
 import { ArrowRight, Download, FileText, ChevronLeft, ChevronRight, X } from "lucide-react";
 
 const projects = [
@@ -67,13 +70,13 @@ const projects = [
     floorPlan: null,
   },
   {
-    images: [granoParadise1, granoParadise2],
+    images: [granoParadise1, granoParadise2, granoParadise3, granoParadise4, granoParadise5],
     title: "Galaxy View",
     location: "Near Bagalur",
     type: "Residential Apartments",
     config: "2/3 BHK Apartments",
     area: "Ongoing Project",
-    brochure: null,
+    brochure: "/brochures/galaxyview-brochure.pdf",
     floorPlan: "/brochures/grano-paradise-floor-plan.pdf",
   },
 ];
