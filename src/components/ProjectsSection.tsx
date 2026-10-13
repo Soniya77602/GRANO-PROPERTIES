@@ -21,6 +21,8 @@ import granoNivas6 from "@/assets/grano-nivas-6.jpg";
 import granoNivas7 from "@/assets/grano-nivas-7.jpg";
 import granoNivas8 from "@/assets/grano-nivas-8.jpg";
 import granoNivas9 from "@/assets/grano-nivas-9.jpg";
+import granoNivas10 from "@/assets/grano-nivas-10.jpg";
+import granoNivas11 from "@/assets/grano-nivas-11.jpg";
 import pvrBuilding from "@/assets/pvr-building.jpg";
 import pvrBuilding1 from "@/assets/pvr-building-1.jpg";
 import pvrBuilding2 from "@/assets/pvr-building-2.jpg";
@@ -53,7 +55,7 @@ const projects = [
     floorPlan: "/brochures/vision-sathnur-floor-plan.pdf",
   },
   {
-    images: [granoNivasNew1, granoNivas1, granoNivas2, granoNivas3, granoNivas4, granoNivas5, granoNivas6, granoNivas7, granoNivas8, granoNivas9],
+    images: [granoNivasNew1, granoNivas1, granoNivas2, granoNivas3, granoNivas4, granoNivas5, granoNivas6, granoNivas7, granoNivas8, granoNivas9, granoNivas10, granoNivas11],
     title: "Grano Nivas",
     location: "Baba Nagar, 2nd Cross",
     type: "Residential Apartments",
