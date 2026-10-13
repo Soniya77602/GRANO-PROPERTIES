@@ -19,6 +19,7 @@ import granoNivas7 from "@/assets/grano-nivas-7.jpg";
 import granoNivas8 from "@/assets/grano-nivas-8.jpg";
 import granoNivas9 from "@/assets/grano-nivas-9.jpg";
 import pvrBuilding from "@/assets/pvr-building.jpg";
+import pvrBuilding1 from "@/assets/pvr-building-1.jpg";
 import granoParadise1 from "@/assets/grano-paradise-1.jpg";
 import granoParadise2 from "@/assets/grano-paradise-2.jpg";
 import { ArrowRight, Download, FileText, ChevronLeft, ChevronRight, X } from "lucide-react";
@@ -45,7 +46,7 @@ const projects = [
     floorPlan: "/brochures/prime-vision-floor-plan.pdf",
   },
   {
-    images: [pvrBuilding],
+    images: [pvrBuilding, pvrBuilding1],
     title: "Prime Vision Residency",
     location: "Sathnur Village, Srinivaspura",
     type: "Luxury Apartments",
