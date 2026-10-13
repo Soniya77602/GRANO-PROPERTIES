@@ -8,6 +8,9 @@ import shanthiNivas6 from "@/assets/shanthi-nivas-6.jpg";
 import shanthiNivas7 from "@/assets/shanthi-nivas-7.jpg";
 import shanthiNivas8 from "@/assets/shanthi-nivas-8.jpg";
 import shanthiNivas9 from "@/assets/shanthi-nivas-9.jpg";
+import shanthiNivas10 from "@/assets/shanthi-nivas-10.jpg";
+import shanthiNivas11 from "@/assets/shanthi-nivas-11.jpg";
+import shanthiNivas12 from "@/assets/shanthi-nivas-12.jpg";
 import granoNivasNew1 from "@/assets/grano-nivas-new-1.jpg";
 import granoNivas1 from "@/assets/grano-nivas-1.jpg";
 import granoNivas2 from "@/assets/grano-nivas-2.jpg";
@@ -40,7 +43,7 @@ import { ArrowRight, Download, FileText, ChevronLeft, ChevronRight, X } from "lu
 
 const projects = [
   {
-    images: [shanthiNivas1, shanthiNivas2, shanthiNivas3, shanthiNivas4, shanthiNivas5, shanthiNivas6, shanthiNivas7, shanthiNivas8, shanthiNivas9],
+    images: [shanthiNivas1, shanthiNivas2, shanthiNivas3, shanthiNivas4, shanthiNivas5, shanthiNivas6, shanthiNivas7, shanthiNivas8, shanthiNivas9, shanthiNivas10, shanthiNivas11, shanthiNivas12],
     title: "Shanthi Nivas",
     location: "Near DPS School, North Opposite",
     type: "Premium Apartments",
