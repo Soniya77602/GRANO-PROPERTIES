@@ -20,6 +20,17 @@ import granoNivas8 from "@/assets/grano-nivas-8.jpg";
 import granoNivas9 from "@/assets/grano-nivas-9.jpg";
 import pvrBuilding from "@/assets/pvr-building.jpg";
 import pvrBuilding1 from "@/assets/pvr-building-1.jpg";
+import pvrBuilding2 from "@/assets/pvr-building-2.jpg";
+import pvrBuilding3 from "@/assets/pvr-building-3.jpg";
+import pvrBuilding4 from "@/assets/pvr-building-4.jpg";
+import pvrBuilding5 from "@/assets/pvr-building-5.jpg";
+import pvrBuilding6 from "@/assets/pvr-building-6.jpg";
+import pvrBuilding7 from "@/assets/pvr-building-7.jpg";
+import pvrBuilding8 from "@/assets/pvr-building-8.jpg";
+import pvrBuilding9 from "@/assets/pvr-building-9.jpg";
+import pvrBuilding10 from "@/assets/pvr-building-10.jpg";
+import pvrBuilding11 from "@/assets/pvr-building-11.jpg";
+import pvrBuilding12 from "@/assets/pvr-building-12.jpg";
 import granoParadise1 from "@/assets/grano-paradise-1.jpg";
 import granoParadise2 from "@/assets/grano-paradise-2.jpg";
 import { ArrowRight, Download, FileText, ChevronLeft, ChevronRight, X } from "lucide-react";
@@ -46,7 +57,7 @@ const projects = [
     floorPlan: "/brochures/prime-vision-floor-plan.pdf",
   },
   {
-    images: [pvrBuilding, pvrBuilding1],
+    images: [pvrBuilding, pvrBuilding1, pvrBuilding2, pvrBuilding3, pvrBuilding4, pvrBuilding5, pvrBuilding6, pvrBuilding7, pvrBuilding8, pvrBuilding9, pvrBuilding10, pvrBuilding11, pvrBuilding12],
     title: "Prime Vision Residency",
     location: "Sathnur Village, Srinivaspura",
     type: "Luxury Apartments",
