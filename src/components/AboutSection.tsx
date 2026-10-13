@@ -32,7 +32,7 @@ const AboutSection = () => {
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               At Grano Properties, we are dedicated to creating premium living spaces that go beyond 
-              just structures. Every project reflects our commitment to quality, innovation, and customer satisfaction.
+              just structures. Every project reflects our commitment to quality, innovation, customer satisfaction and trust.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
               Our team of architects, engineers, and designers work together to deliver apartments that are
